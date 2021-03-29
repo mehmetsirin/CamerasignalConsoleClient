@@ -21,10 +21,10 @@ namespace SIGNALRCONSOLECLIENT._Console
         {
             //Set connection
 
-            // string url = "http://localhost:53306//signalr";
+            //string url = "http://localhost:53306//signalr";
             var url = "http://ats2.rota.net.tr/signalr";
 
-            hubConnection = new HubConnection(url, "Imei=10");
+            hubConnection = new HubConnection(url, "key=1");
 
             //To enable client-side logging, set the TraceLevel and TraceWriter properties on the connection object.
             //Logging client events to a text file under SIGNALRCONSOLECLIENT._Console\bin\Debug
@@ -34,7 +34,7 @@ namespace SIGNALRCONSOLECLIENT._Console
             hubConnection.TraceWriter = writer;
 
             //Make proxy to hub based on hub name on server
-            myHub = hubConnection.CreateHubProxy("cameraDevice");
+            myHub = hubConnection.CreateHubProxy("RealDataNew");
 
             //Start connection
             hubConnection.Start().ContinueWith(task =>

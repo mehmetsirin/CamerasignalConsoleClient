@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SIGNALRCONSOLECLIENT._Console", "SIGNALRCONSOLECLIENT._Console\SIGNALRCONSOLECLIENT._Console.csproj", "{5923A034-8132-4461-AE09-4EE95EEF3DAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AtsSignalr", "AtsSignalr\AtsSignalr.csproj", "{BC198415-C749-48C2-B392-12E37E4DF301}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,8 +17,15 @@ Global
 		{5923A034-8132-4461-AE09-4EE95EEF3DAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5923A034-8132-4461-AE09-4EE95EEF3DAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5923A034-8132-4461-AE09-4EE95EEF3DAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC198415-C749-48C2-B392-12E37E4DF301}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC198415-C749-48C2-B392-12E37E4DF301}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC198415-C749-48C2-B392-12E37E4DF301}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC198415-C749-48C2-B392-12E37E4DF301}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C479A8F1-9E4B-4DCE-8C15-C530573528D8}
 	EndGlobalSection
 EndGlobal
